@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: covid_trend_prediction_platform
+    ports:
+      - "8000:8000"
+    environment:
+      - SECRET_KEY=super-secure-production-secret-key-covid-intelligence-2026
+      - DATABASE_URL=sqlite:///./covid_healthcare.db
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      - EMAILS_FROM_EMAIL=${EMAILS_FROM_EMAIL:-noreply@covid-predict.health.gov}
+    volumes:
+      - app_data:/app/data
+      - db_data:/app
+    restart: unless-stopped
+
+volumes:
+  app_data:
+  db_data:

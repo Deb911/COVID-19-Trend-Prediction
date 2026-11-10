@@ -1,0 +1,45 @@
+# Environments and Secret Credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python Virtual Environments & Runtimes
+.venv/
+venv/
+env/
+ENV/
+python_runtime/
+git_runtime/
+gh_runtime/
+mingit.zip
+gh.zip
+python_embed.zip
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend Build Artifacts
+node_modules/
+frontend/node_modules/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel Deployment Artifacts
+.vercel
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.bak

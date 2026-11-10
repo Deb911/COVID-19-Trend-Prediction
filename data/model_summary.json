@@ -1,0 +1,1773 @@
+{
+  "comparison": [
+    {
+      "model_name": "LinearRegression",
+      "mae": 149.36,
+      "rmse": 203.62,
+      "mape": 8098.76,
+      "r2": -217.3357,
+      "residual_std": 144.91,
+      "train_samples": 37,
+      "test_samples": 10,
+      "last_trained": "2026-11-05T13:11:40.036588"
+    },
+    {
+      "model_name": "RandomForest",
+      "mae": 101.43,
+      "rmse": 113.46,
+      "mape": 4205.7,
+      "r2": -66.7888,
+      "residual_std": 50.83,
+      "train_samples": 37,
+      "test_samples": 10,
+      "last_trained": "2026-11-05T13:11:40.131804"
+    },
+    {
+      "model_name": "GradientBoosting",
+      "mae": 186.57,
+      "rmse": 205.91,
+      "mape": 7616.1,
+      "r2": -222.2906,
+      "residual_std": 87.13,
+      "train_samples": 37,
+      "test_samples": 10,
+      "last_trained": "2026-11-05T13:11:40.177967"
+    },
+    {
+      "model_name": "ARIMA",
+      "mae": 31.29,
+      "rmse": 34.07,
+      "mape": 1986.26,
+      "r2": -5.1128,
+      "residual_std": 13.48,
+      "train_samples": 37,
+      "test_samples": 10,
+      "last_trained": "2026-11-05T13:11:40.206740"
+    }
+  ],
+  "best_model": "ARIMA",
+  "historical_validation": {
+    "LinearRegression": [
+      {
+        "date": "2021-05-26",
+        "actual": 35,
+        "predicted": 35.1,
+        "error": 0.1
+      },
+      {
+        "date": "2021-05-27",
+        "actual": 1,
+        "predicted": 9.1,
+        "error": 8.1
+      },
+      {
+        "date": "2021-05-28",
+        "actual": 31,
+        "predicted": 50.4,
+        "error": 19.4
+      },
+      {
+        "date": "2021-05-30",
+        "actual": 32,
+        "predicted": 8.8,
+        "error": -23.2
+      },
+      {
+        "date": "2021-05-31",
+        "actual": 1,
+        "predicted": -7.4,
+        "error": -8.4
+      },
+      {
+        "date": "2021-06-02",
+        "actual": 8,
+        "predicted": 266.8,
+        "error": 258.8
+      },
+      {
+        "date": "2021-06-03",
+        "actual": 1,
+        "predicted": 292.8,
+        "error": 291.8
+      },
+      {
+        "date": "2021-06-05",
+        "actual": 1,
+        "predicted": 298.5,
+        "error": 297.5
+      },
+      {
+        "date": "2021-06-11",
+        "actual": 2,
+        "predicted": 272.6,
+        "error": 270.6
+      },
+      {
+        "date": "2026-09-06",
+        "actual": 9,
+        "predicted": 324.7,
+        "error": 315.7
+      }
+    ],
+    "RandomForest": [
+      {
+        "date": "2021-05-26",
+        "actual": 35,
+        "predicted": 99.3,
+        "error": 64.3
+      },
+      {
+        "date": "2021-05-27",
+        "actual": 1,
+        "predicted": 27.8,
+        "error": 26.8
+      },
+      {
+        "date": "2021-05-28",
+        "actual": 31,
+        "predicted": 184.4,
+        "error": 153.4
+      },
+      {
+        "date": "2021-05-30",
+        "actual": 32,
+        "predicted": 74.4,
+        "error": 42.4
+      },
+      {
+        "date": "2021-05-31",
+        "actual": 1,
+        "predicted": 72.6,
+        "error": 71.6
+      },
+      {
+        "date": "2021-06-02",
+        "actual": 8,
+        "predicted": 209.2,
+        "error": 201.2
+      },
+      {
+        "date": "2021-06-03",
+        "actual": 1,
+        "predicted": 84.9,
+        "error": 83.9
+      },
+      {
+        "date": "2021-06-05",
+        "actual": 1,
+        "predicted": 131.2,
+        "error": 130.2
+      },
+      {
+        "date": "2021-06-11",
+        "actual": 2,
+        "predicted": 125.5,
+        "error": 123.5
+      },
+      {
+        "date": "2026-09-06",
+        "actual": 9,
+        "predicted": 126.0,
+        "error": 117.0
+      }
+    ],
+    "GradientBoosting": [
+      {
+        "date": "2021-05-26",
+        "actual": 35,
+        "predicted": 152.4,
+        "error": 117.4
+      },
+      {
+        "date": "2021-05-27",
+        "actual": 1,
+        "predicted": 27.6,
+        "error": 26.6
+      },
+      {
+        "date": "2021-05-28",
+        "actual": 31,
+        "predicted": 310.1,
+        "error": 279.1
+      },
+      {
+        "date": "2021-05-30",
+        "actual": 32,
+        "predicted": 143.8,
+        "error": 111.8
+      },
+      {
+        "date": "2021-05-31",
+        "actual": 1,
+        "predicted": 129.8,
+        "error": 128.8
+      },
+      {
+        "date": "2021-06-02",
+        "actual": 8,
+        "predicted": 330.0,
+        "error": 322.0
+      },
+      {
+        "date": "2021-06-03",
+        "actual": 1,
+        "predicted": 159.0,
+        "error": 158.0
+      },
+      {
+        "date": "2021-06-05",
+        "actual": 1,
+        "predicted": 244.0,
+        "error": 243.0
+      },
+      {
+        "date": "2021-06-11",
+        "actual": 2,
+        "predicted": 248.5,
+        "error": 246.5
+      },
+      {
+        "date": "2026-09-06",
+        "actual": 9,
+        "predicted": 241.5,
+        "error": 232.5
+      }
+    ],
+    "ARIMA": [
+      {
+        "date": "2021-05-26",
+        "actual": 35,
+        "predicted": 45.0,
+        "error": 10.0
+      },
+      {
+        "date": "2021-05-27",
+        "actual": 1,
+        "predicted": 43.1,
+        "error": 42.1
+      },
+      {
+        "date": "2021-05-28",
+        "actual": 31,
+        "predicted": 43.2,
+        "error": 12.2
+      },
+      {
+        "date": "2021-05-30",
+        "actual": 32,
+        "predicted": 43.2,
+        "error": 11.2
+      },
+      {
+        "date": "2021-05-31",
+        "actual": 1,
+        "predicted": 43.2,
+        "error": 42.2
+      },
+      {
+        "date": "2021-06-02",
+        "actual": 8,
+        "predicted": 43.2,
+        "error": 35.2
+      },
+      {
+        "date": "2021-06-03",
+        "actual": 1,
+        "predicted": 43.2,
+        "error": 42.2
+      },
+      {
+        "date": "2021-06-05",
+        "actual": 1,
+        "predicted": 43.2,
+        "error": 42.2
+      },
+      {
+        "date": "2021-06-11",
+        "actual": 2,
+        "predicted": 43.2,
+        "error": 41.2
+      },
+      {
+        "date": "2026-09-06",
+        "actual": 9,
+        "predicted": 43.2,
+        "error": 34.2
+      }
+    ]
+  },
+  "forecasts": {
+    "7": {
+      "LinearRegression": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 341.7,
+          "lower_bound": 46.3,
+          "upper_bound": 637.1
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 240.5,
+          "lower_bound": 0.0,
+          "upper_bound": 547.2
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 319.1
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 330.5
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 341.8
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 353.2
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 364.6
+        }
+      ],
+      "RandomForest": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 81.8,
+          "lower_bound": 0.0,
+          "upper_bound": 185.4
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 66.7,
+          "lower_bound": 0.0,
+          "upper_bound": 174.3
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 67.7,
+          "lower_bound": 0.0,
+          "upper_bound": 179.2
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 26.8,
+          "lower_bound": 0.0,
+          "upper_bound": 142.4
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 47.4,
+          "lower_bound": 0.0,
+          "upper_bound": 166.9
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 24.4,
+          "lower_bound": 0.0,
+          "upper_bound": 148.0
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 48.9,
+          "lower_bound": 0.0,
+          "upper_bound": 176.4
+        }
+      ],
+      "GradientBoosting": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 147.8,
+          "lower_bound": 0.0,
+          "upper_bound": 325.4
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 130.8,
+          "lower_bound": 0.0,
+          "upper_bound": 315.3
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 28.3,
+          "lower_bound": 0.0,
+          "upper_bound": 219.6
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 42.1,
+          "lower_bound": 0.0,
+          "upper_bound": 240.2
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 17.4,
+          "lower_bound": 0.0,
+          "upper_bound": 222.3
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 52.4,
+          "lower_bound": 0.0,
+          "upper_bound": 264.1
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 15.7,
+          "lower_bound": 0.0,
+          "upper_bound": 234.3
+        }
+      ],
+      "ARIMA": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 8.8,
+          "lower_bound": 0.0,
+          "upper_bound": 36.3
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 8.6,
+          "lower_bound": 0.0,
+          "upper_bound": 37.2
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 8.5,
+          "lower_bound": 0.0,
+          "upper_bound": 38.1
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 8.3,
+          "lower_bound": 0.0,
+          "upper_bound": 38.9
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 8.1,
+          "lower_bound": 0.0,
+          "upper_bound": 39.8
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 8.0,
+          "lower_bound": 0.0,
+          "upper_bound": 40.7
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 7.8,
+          "lower_bound": 0.0,
+          "upper_bound": 41.6
+        }
+      ]
+    },
+    "14": {
+      "LinearRegression": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 341.7,
+          "lower_bound": 46.3,
+          "upper_bound": 637.1
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 240.5,
+          "lower_bound": 0.0,
+          "upper_bound": 547.2
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 319.1
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 330.5
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 341.8
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 353.2
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 364.6
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 66.6,
+          "lower_bound": 0.0,
+          "upper_bound": 441.5
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 198.9,
+          "lower_bound": 0.0,
+          "upper_bound": 585.2
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 112.1,
+          "lower_bound": 0.0,
+          "upper_bound": 509.7
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 410.0
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 421.4
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 432.7
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 444.1
+        }
+      ],
+      "RandomForest": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 81.8,
+          "lower_bound": 0.0,
+          "upper_bound": 185.4
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 66.7,
+          "lower_bound": 0.0,
+          "upper_bound": 174.3
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 67.7,
+          "lower_bound": 0.0,
+          "upper_bound": 179.2
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 26.8,
+          "lower_bound": 0.0,
+          "upper_bound": 142.4
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 47.4,
+          "lower_bound": 0.0,
+          "upper_bound": 166.9
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 24.4,
+          "lower_bound": 0.0,
+          "upper_bound": 148.0
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 48.9,
+          "lower_bound": 0.0,
+          "upper_bound": 176.4
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 13.0,
+          "lower_bound": 0.0,
+          "upper_bound": 144.6
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 48.2,
+          "lower_bound": 0.0,
+          "upper_bound": 183.7
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 12.5,
+          "lower_bound": 0.0,
+          "upper_bound": 152.0
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 47.8,
+          "lower_bound": 0.0,
+          "upper_bound": 191.3
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 10.7,
+          "lower_bound": 0.0,
+          "upper_bound": 158.2
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 48.8,
+          "lower_bound": 0.0,
+          "upper_bound": 200.2
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 10.8,
+          "lower_bound": 0.0,
+          "upper_bound": 166.3
+        }
+      ],
+      "GradientBoosting": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 147.8,
+          "lower_bound": 0.0,
+          "upper_bound": 325.4
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 130.8,
+          "lower_bound": 0.0,
+          "upper_bound": 315.3
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 28.3,
+          "lower_bound": 0.0,
+          "upper_bound": 219.6
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 42.1,
+          "lower_bound": 0.0,
+          "upper_bound": 240.2
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 17.4,
+          "lower_bound": 0.0,
+          "upper_bound": 222.3
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 52.4,
+          "lower_bound": 0.0,
+          "upper_bound": 264.1
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 15.7,
+          "lower_bound": 0.0,
+          "upper_bound": 234.3
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 53.3,
+          "lower_bound": 0.0,
+          "upper_bound": 278.7
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 14.0,
+          "lower_bound": 0.0,
+          "upper_bound": 246.2
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 51.7,
+          "lower_bound": 0.0,
+          "upper_bound": 290.7
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 20.3,
+          "lower_bound": 0.0,
+          "upper_bound": 266.2
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 54.5,
+          "lower_bound": 0.0,
+          "upper_bound": 307.3
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 6.4,
+          "lower_bound": 0.0,
+          "upper_bound": 266.0
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 43.9,
+          "lower_bound": 0.0,
+          "upper_bound": 310.4
+        }
+      ],
+      "ARIMA": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 8.8,
+          "lower_bound": 0.0,
+          "upper_bound": 36.3
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 8.6,
+          "lower_bound": 0.0,
+          "upper_bound": 37.2
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 8.5,
+          "lower_bound": 0.0,
+          "upper_bound": 38.1
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 8.3,
+          "lower_bound": 0.0,
+          "upper_bound": 38.9
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 8.1,
+          "lower_bound": 0.0,
+          "upper_bound": 39.8
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 8.0,
+          "lower_bound": 0.0,
+          "upper_bound": 40.7
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 7.8,
+          "lower_bound": 0.0,
+          "upper_bound": 41.6
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 7.7,
+          "lower_bound": 0.0,
+          "upper_bound": 42.5
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 7.5,
+          "lower_bound": 0.0,
+          "upper_bound": 43.4
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 7.4,
+          "lower_bound": 0.0,
+          "upper_bound": 44.3
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 7.2,
+          "lower_bound": 0.0,
+          "upper_bound": 45.3
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 7.1,
+          "lower_bound": 0.0,
+          "upper_bound": 46.2
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 6.9,
+          "lower_bound": 0.0,
+          "upper_bound": 47.1
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 6.8,
+          "lower_bound": 0.0,
+          "upper_bound": 48.0
+        }
+      ]
+    },
+    "30": {
+      "LinearRegression": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 341.7,
+          "lower_bound": 46.3,
+          "upper_bound": 637.1
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 240.5,
+          "lower_bound": 0.0,
+          "upper_bound": 547.2
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 319.1
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 330.5
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 341.8
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 353.2
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 364.6
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 66.6,
+          "lower_bound": 0.0,
+          "upper_bound": 441.5
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 198.9,
+          "lower_bound": 0.0,
+          "upper_bound": 585.2
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 112.1,
+          "lower_bound": 0.0,
+          "upper_bound": 509.7
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 410.0
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 421.4
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 432.7
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 444.1
+        },
+        {
+          "date": "2026-09-21",
+          "step": 15,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 455.4
+        },
+        {
+          "date": "2026-09-22",
+          "step": 16,
+          "forecast": 89.5,
+          "lower_bound": 0.0,
+          "upper_bound": 555.3
+        },
+        {
+          "date": "2026-09-23",
+          "step": 17,
+          "forecast": 65.6,
+          "lower_bound": 0.0,
+          "upper_bound": 542.7
+        },
+        {
+          "date": "2026-09-24",
+          "step": 18,
+          "forecast": 50.5,
+          "lower_bound": 0.0,
+          "upper_bound": 539.0
+        },
+        {
+          "date": "2026-09-25",
+          "step": 19,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 500.9
+        },
+        {
+          "date": "2026-09-26",
+          "step": 20,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 512.2
+        },
+        {
+          "date": "2026-09-27",
+          "step": 21,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 523.6
+        },
+        {
+          "date": "2026-09-28",
+          "step": 22,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 535.0
+        },
+        {
+          "date": "2026-09-29",
+          "step": 23,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 546.3
+        },
+        {
+          "date": "2026-09-30",
+          "step": 24,
+          "forecast": 54.4,
+          "lower_bound": 0.0,
+          "upper_bound": 611.1
+        },
+        {
+          "date": "2026-10-01",
+          "step": 25,
+          "forecast": 282.6,
+          "lower_bound": 0.0,
+          "upper_bound": 850.6
+        },
+        {
+          "date": "2026-10-02",
+          "step": 26,
+          "forecast": 190.0,
+          "lower_bound": 0.0,
+          "upper_bound": 769.4
+        },
+        {
+          "date": "2026-10-03",
+          "step": 27,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 591.8
+        },
+        {
+          "date": "2026-10-04",
+          "step": 28,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 603.1
+        },
+        {
+          "date": "2026-10-05",
+          "step": 29,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 614.5
+        },
+        {
+          "date": "2026-10-06",
+          "step": 30,
+          "forecast": 1.0,
+          "lower_bound": 0.0,
+          "upper_bound": 625.9
+        }
+      ],
+      "RandomForest": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 81.8,
+          "lower_bound": 0.0,
+          "upper_bound": 185.4
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 66.7,
+          "lower_bound": 0.0,
+          "upper_bound": 174.3
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 67.7,
+          "lower_bound": 0.0,
+          "upper_bound": 179.2
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 26.8,
+          "lower_bound": 0.0,
+          "upper_bound": 142.4
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 47.4,
+          "lower_bound": 0.0,
+          "upper_bound": 166.9
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 24.4,
+          "lower_bound": 0.0,
+          "upper_bound": 148.0
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 48.9,
+          "lower_bound": 0.0,
+          "upper_bound": 176.4
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 13.0,
+          "lower_bound": 0.0,
+          "upper_bound": 144.6
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 48.2,
+          "lower_bound": 0.0,
+          "upper_bound": 183.7
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 12.5,
+          "lower_bound": 0.0,
+          "upper_bound": 152.0
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 47.8,
+          "lower_bound": 0.0,
+          "upper_bound": 191.3
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 10.7,
+          "lower_bound": 0.0,
+          "upper_bound": 158.2
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 48.8,
+          "lower_bound": 0.0,
+          "upper_bound": 200.2
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 10.8,
+          "lower_bound": 0.0,
+          "upper_bound": 166.3
+        },
+        {
+          "date": "2026-09-21",
+          "step": 15,
+          "forecast": 55.3,
+          "lower_bound": 0.0,
+          "upper_bound": 214.7
+        },
+        {
+          "date": "2026-09-22",
+          "step": 16,
+          "forecast": 12.1,
+          "lower_bound": 0.0,
+          "upper_bound": 175.5
+        },
+        {
+          "date": "2026-09-23",
+          "step": 17,
+          "forecast": 48.2,
+          "lower_bound": 0.0,
+          "upper_bound": 215.6
+        },
+        {
+          "date": "2026-09-24",
+          "step": 18,
+          "forecast": 9.7,
+          "lower_bound": 0.0,
+          "upper_bound": 181.1
+        },
+        {
+          "date": "2026-09-25",
+          "step": 19,
+          "forecast": 50.0,
+          "lower_bound": 0.0,
+          "upper_bound": 225.3
+        },
+        {
+          "date": "2026-09-26",
+          "step": 20,
+          "forecast": 9.8,
+          "lower_bound": 0.0,
+          "upper_bound": 189.1
+        },
+        {
+          "date": "2026-09-27",
+          "step": 21,
+          "forecast": 49.6,
+          "lower_bound": 0.0,
+          "upper_bound": 232.9
+        },
+        {
+          "date": "2026-09-28",
+          "step": 22,
+          "forecast": 11.1,
+          "lower_bound": 0.0,
+          "upper_bound": 198.4
+        },
+        {
+          "date": "2026-09-29",
+          "step": 23,
+          "forecast": 61.5,
+          "lower_bound": 0.0,
+          "upper_bound": 252.8
+        },
+        {
+          "date": "2026-09-30",
+          "step": 24,
+          "forecast": 12.0,
+          "lower_bound": 0.0,
+          "upper_bound": 207.3
+        },
+        {
+          "date": "2026-10-01",
+          "step": 25,
+          "forecast": 124.8,
+          "lower_bound": 0.0,
+          "upper_bound": 324.0
+        },
+        {
+          "date": "2026-10-02",
+          "step": 26,
+          "forecast": 54.2,
+          "lower_bound": 0.0,
+          "upper_bound": 257.5
+        },
+        {
+          "date": "2026-10-03",
+          "step": 27,
+          "forecast": 38.8,
+          "lower_bound": 0.0,
+          "upper_bound": 246.0
+        },
+        {
+          "date": "2026-10-04",
+          "step": 28,
+          "forecast": 30.5,
+          "lower_bound": 0.0,
+          "upper_bound": 241.7
+        },
+        {
+          "date": "2026-10-05",
+          "step": 29,
+          "forecast": 41.1,
+          "lower_bound": 0.0,
+          "upper_bound": 256.3
+        },
+        {
+          "date": "2026-10-06",
+          "step": 30,
+          "forecast": 24.9,
+          "lower_bound": 0.0,
+          "upper_bound": 244.1
+        }
+      ],
+      "GradientBoosting": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 147.8,
+          "lower_bound": 0.0,
+          "upper_bound": 325.4
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 130.8,
+          "lower_bound": 0.0,
+          "upper_bound": 315.3
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 28.3,
+          "lower_bound": 0.0,
+          "upper_bound": 219.6
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 42.1,
+          "lower_bound": 0.0,
+          "upper_bound": 240.2
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 17.4,
+          "lower_bound": 0.0,
+          "upper_bound": 222.3
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 52.4,
+          "lower_bound": 0.0,
+          "upper_bound": 264.1
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 15.7,
+          "lower_bound": 0.0,
+          "upper_bound": 234.3
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 53.3,
+          "lower_bound": 0.0,
+          "upper_bound": 278.7
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 14.0,
+          "lower_bound": 0.0,
+          "upper_bound": 246.2
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 51.7,
+          "lower_bound": 0.0,
+          "upper_bound": 290.7
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 20.3,
+          "lower_bound": 0.0,
+          "upper_bound": 266.2
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 54.5,
+          "lower_bound": 0.0,
+          "upper_bound": 307.3
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 6.4,
+          "lower_bound": 0.0,
+          "upper_bound": 266.0
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 43.9,
+          "lower_bound": 0.0,
+          "upper_bound": 310.4
+        },
+        {
+          "date": "2026-09-21",
+          "step": 15,
+          "forecast": 14.3,
+          "lower_bound": 0.0,
+          "upper_bound": 287.6
+        },
+        {
+          "date": "2026-09-22",
+          "step": 16,
+          "forecast": 50.0,
+          "lower_bound": 0.0,
+          "upper_bound": 330.1
+        },
+        {
+          "date": "2026-09-23",
+          "step": 17,
+          "forecast": 13.1,
+          "lower_bound": 0.0,
+          "upper_bound": 300.0
+        },
+        {
+          "date": "2026-09-24",
+          "step": 18,
+          "forecast": 51.0,
+          "lower_bound": 0.0,
+          "upper_bound": 344.8
+        },
+        {
+          "date": "2026-09-25",
+          "step": 19,
+          "forecast": 5.3,
+          "lower_bound": 0.0,
+          "upper_bound": 305.8
+        },
+        {
+          "date": "2026-09-26",
+          "step": 20,
+          "forecast": 151.5,
+          "lower_bound": 0.0,
+          "upper_bound": 458.9
+        },
+        {
+          "date": "2026-09-27",
+          "step": 21,
+          "forecast": 1.5,
+          "lower_bound": 0.0,
+          "upper_bound": 315.7
+        },
+        {
+          "date": "2026-09-28",
+          "step": 22,
+          "forecast": 201.4,
+          "lower_bound": 0.0,
+          "upper_bound": 522.5
+        },
+        {
+          "date": "2026-09-29",
+          "step": 23,
+          "forecast": 7.2,
+          "lower_bound": 0.0,
+          "upper_bound": 335.1
+        },
+        {
+          "date": "2026-09-30",
+          "step": 24,
+          "forecast": 94.9,
+          "lower_bound": 0.0,
+          "upper_bound": 429.7
+        },
+        {
+          "date": "2026-10-01",
+          "step": 25,
+          "forecast": 88.1,
+          "lower_bound": 0.0,
+          "upper_bound": 429.6
+        },
+        {
+          "date": "2026-10-02",
+          "step": 26,
+          "forecast": 44.7,
+          "lower_bound": 0.0,
+          "upper_bound": 393.0
+        },
+        {
+          "date": "2026-10-03",
+          "step": 27,
+          "forecast": 20.5,
+          "lower_bound": 0.0,
+          "upper_bound": 375.8
+        },
+        {
+          "date": "2026-10-04",
+          "step": 28,
+          "forecast": 46.4,
+          "lower_bound": 0.0,
+          "upper_bound": 408.5
+        },
+        {
+          "date": "2026-10-05",
+          "step": 29,
+          "forecast": 26.5,
+          "lower_bound": 0.0,
+          "upper_bound": 395.3
+        },
+        {
+          "date": "2026-10-06",
+          "step": 30,
+          "forecast": 56.2,
+          "lower_bound": 0.0,
+          "upper_bound": 431.9
+        }
+      ],
+      "ARIMA": [
+        {
+          "date": "2026-09-07",
+          "step": 1,
+          "forecast": 8.8,
+          "lower_bound": 0.0,
+          "upper_bound": 36.3
+        },
+        {
+          "date": "2026-09-08",
+          "step": 2,
+          "forecast": 8.6,
+          "lower_bound": 0.0,
+          "upper_bound": 37.2
+        },
+        {
+          "date": "2026-09-09",
+          "step": 3,
+          "forecast": 8.5,
+          "lower_bound": 0.0,
+          "upper_bound": 38.1
+        },
+        {
+          "date": "2026-09-10",
+          "step": 4,
+          "forecast": 8.3,
+          "lower_bound": 0.0,
+          "upper_bound": 38.9
+        },
+        {
+          "date": "2026-09-11",
+          "step": 5,
+          "forecast": 8.1,
+          "lower_bound": 0.0,
+          "upper_bound": 39.8
+        },
+        {
+          "date": "2026-09-12",
+          "step": 6,
+          "forecast": 8.0,
+          "lower_bound": 0.0,
+          "upper_bound": 40.7
+        },
+        {
+          "date": "2026-09-13",
+          "step": 7,
+          "forecast": 7.8,
+          "lower_bound": 0.0,
+          "upper_bound": 41.6
+        },
+        {
+          "date": "2026-09-14",
+          "step": 8,
+          "forecast": 7.7,
+          "lower_bound": 0.0,
+          "upper_bound": 42.5
+        },
+        {
+          "date": "2026-09-15",
+          "step": 9,
+          "forecast": 7.5,
+          "lower_bound": 0.0,
+          "upper_bound": 43.4
+        },
+        {
+          "date": "2026-09-16",
+          "step": 10,
+          "forecast": 7.4,
+          "lower_bound": 0.0,
+          "upper_bound": 44.3
+        },
+        {
+          "date": "2026-09-17",
+          "step": 11,
+          "forecast": 7.2,
+          "lower_bound": 0.0,
+          "upper_bound": 45.3
+        },
+        {
+          "date": "2026-09-18",
+          "step": 12,
+          "forecast": 7.1,
+          "lower_bound": 0.0,
+          "upper_bound": 46.2
+        },
+        {
+          "date": "2026-09-19",
+          "step": 13,
+          "forecast": 6.9,
+          "lower_bound": 0.0,
+          "upper_bound": 47.1
+        },
+        {
+          "date": "2026-09-20",
+          "step": 14,
+          "forecast": 6.8,
+          "lower_bound": 0.0,
+          "upper_bound": 48.0
+        },
+        {
+          "date": "2026-09-21",
+          "step": 15,
+          "forecast": 6.6,
+          "lower_bound": 0.0,
+          "upper_bound": 48.9
+        },
+        {
+          "date": "2026-09-22",
+          "step": 16,
+          "forecast": 6.5,
+          "lower_bound": 0.0,
+          "upper_bound": 49.8
+        },
+        {
+          "date": "2026-09-23",
+          "step": 17,
+          "forecast": 6.4,
+          "lower_bound": 0.0,
+          "upper_bound": 50.8
+        },
+        {
+          "date": "2026-09-24",
+          "step": 18,
+          "forecast": 6.3,
+          "lower_bound": 0.0,
+          "upper_bound": 51.7
+        },
+        {
+          "date": "2026-09-25",
+          "step": 19,
+          "forecast": 6.1,
+          "lower_bound": 0.0,
+          "upper_bound": 52.6
+        },
+        {
+          "date": "2026-09-26",
+          "step": 20,
+          "forecast": 6.0,
+          "lower_bound": 0.0,
+          "upper_bound": 53.6
+        },
+        {
+          "date": "2026-09-27",
+          "step": 21,
+          "forecast": 5.9,
+          "lower_bound": 0.0,
+          "upper_bound": 54.5
+        },
+        {
+          "date": "2026-09-28",
+          "step": 22,
+          "forecast": 5.8,
+          "lower_bound": 0.0,
+          "upper_bound": 55.4
+        },
+        {
+          "date": "2026-09-29",
+          "step": 23,
+          "forecast": 5.7,
+          "lower_bound": 0.0,
+          "upper_bound": 56.4
+        },
+        {
+          "date": "2026-09-30",
+          "step": 24,
+          "forecast": 5.5,
+          "lower_bound": 0.0,
+          "upper_bound": 57.3
+        },
+        {
+          "date": "2026-10-01",
+          "step": 25,
+          "forecast": 5.4,
+          "lower_bound": 0.0,
+          "upper_bound": 58.3
+        },
+        {
+          "date": "2026-10-02",
+          "step": 26,
+          "forecast": 5.3,
+          "lower_bound": 0.0,
+          "upper_bound": 59.2
+        },
+        {
+          "date": "2026-10-03",
+          "step": 27,
+          "forecast": 5.2,
+          "lower_bound": 0.0,
+          "upper_bound": 60.2
+        },
+        {
+          "date": "2026-10-04",
+          "step": 28,
+          "forecast": 5.1,
+          "lower_bound": 0.0,
+          "upper_bound": 61.1
+        },
+        {
+          "date": "2026-10-05",
+          "step": 29,
+          "forecast": 5.0,
+          "lower_bound": 0.0,
+          "upper_bound": 62.1
+        },
+        {
+          "date": "2026-10-06",
+          "step": 30,
+          "forecast": 4.9,
+          "lower_bound": 0.0,
+          "upper_bound": 63.0
+        }
+      ]
+    }
+  },
+  "features_used": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_7",
+    "rolling_3_mean",
+    "rolling_7_mean",
+    "rolling_7_std",
+    "day_of_week",
+    "day_of_month",
+    "time_step",
+    "growth_rate"
+  ],
+  "last_training_date": "2026-11-05 13:11:40"
+}

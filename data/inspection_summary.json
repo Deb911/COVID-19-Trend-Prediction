@@ -1,0 +1,576 @@
+{
+  "file_path": "data\\attached_covid_medical_dataset.xlsx",
+  "sheet_count": 20,
+  "sheets": {
+    "BEDS_WB": {
+      "rows": 320,
+      "cols": 6,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Pediatric facility available or not"
+      ],
+      "missing": {
+        "Facility provided": 0,
+        "District": 9,
+        "Name of the Organisation/Contact Person ": 7,
+        "Location": 11,
+        "Contact number ": 12,
+        "Pediatric facility available or not": 200
+      },
+      "duplicates": 6
+    },
+    "OXYGEN_WB": {
+      "rows": 283,
+      "cols": 5,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number "
+      ],
+      "missing": {
+        "Facility provided": 30,
+        "District": 14,
+        "Name of the Organisation/Contact Person ": 31,
+        "Location": 43,
+        "Contact number ": 30
+      },
+      "duplicates": 13
+    },
+    "MEDICINES_WB": {
+      "rows": 55,
+      "cols": 5,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/ Contact Person ",
+        "Location",
+        "Contact number "
+      ],
+      "missing": {
+        "Facility provided": 3,
+        "District": 4,
+        "Name of the Organisation/ Contact Person ": 5,
+        "Location": 15,
+        "Contact number ": 4
+      },
+      "duplicates": 2
+    },
+    "PLASMA_BLOOD_WB": {
+      "rows": 21,
+      "cols": 5,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number "
+      ],
+      "missing": {
+        "Facility provided": 0,
+        "District": 0,
+        "Name of the Organisation/Contact Person ": 0,
+        "Location": 0,
+        "Contact number ": 0
+      },
+      "duplicates": 0
+    },
+    "AMBULANCE_WB": {
+      "rows": 60,
+      "cols": 5,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number "
+      ],
+      "missing": {
+        "Facility provided": 1,
+        "District": 2,
+        "Name of the Organisation/Contact Person ": 2,
+        "Location": 8,
+        "Contact number ": 1
+      },
+      "duplicates": 2
+    },
+    "Form Responses 4": {
+      "rows": 754,
+      "cols": 10,
+      "columns": [
+        "Timestamp",
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Timestamp.1",
+        "Availability Status",
+        "Comments"
+      ],
+      "missing": {
+        "Timestamp": 106,
+        "Facility provided": 116,
+        "District": 154,
+        "Name of the Organisation/Contact Person": 277,
+        "Location": 287,
+        "Contact number ": 104,
+        "Verification Status": 104,
+        "Timestamp.1": 749,
+        "Availability Status": 132,
+        "Comments": 386
+      },
+      "duplicates": 103
+    },
+    "BEDS": {
+      "rows": 303,
+      "cols": 30,
+      "columns": [
+        "Facility provided",
+        "District",
+        "District.1",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification  Status",
+        "Verification time",
+        "Availability Status",
+        "Comments",
+        "Status",
+        "Status.1",
+        "Status.2",
+        "Status.3",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 16",
+        "Unnamed: 17",
+        "Unnamed: 18",
+        "Unnamed: 19",
+        "Unnamed: 20",
+        "Unnamed: 21",
+        "Unnamed: 22",
+        "Unnamed: 23",
+        "Unnamed: 24",
+        "Unnamed: 25",
+        "Unnamed: 26",
+        "Unnamed: 27",
+        "Unnamed: 28",
+        "Unnamed: 29"
+      ],
+      "missing": {
+        "Facility provided": 28,
+        "District": 164,
+        "District.1": 31,
+        "Name of the Organisation/Contact Person ": 25,
+        "Location": 115,
+        "Contact number ": 34,
+        "Verification  Status": 81,
+        "Verification time": 41,
+        "Availability Status": 134,
+        "Comments": 211,
+        "Status": 289,
+        "Status.1": 301,
+        "Status.2": 301,
+        "Status.3": 301,
+        "Unnamed: 14": 303,
+        "Unnamed: 15": 303,
+        "Unnamed: 16": 302,
+        "Unnamed: 17": 303,
+        "Unnamed: 18": 302,
+        "Unnamed: 19": 302,
+        "Unnamed: 20": 302,
+        "Unnamed: 21": 302,
+        "Unnamed: 22": 302,
+        "Unnamed: 23": 302,
+        "Unnamed: 24": 302,
+        "Unnamed: 25": 303,
+        "Unnamed: 26": 302,
+        "Unnamed: 27": 303,
+        "Unnamed: 28": 302,
+        "Unnamed: 29": 302
+      },
+      "duplicates": 18
+    },
+    "OXYGEN": {
+      "rows": 313,
+      "cols": 10,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time",
+        "Availability Status",
+        "Comments",
+        "Status"
+      ],
+      "missing": {
+        "Facility provided": 71,
+        "District": 111,
+        "Name of the Organisation/Contact Person ": 76,
+        "Location": 80,
+        "Contact number ": 72,
+        "Verification Status": 74,
+        "Verification time": 85,
+        "Availability Status": 108,
+        "Comments": 217,
+        "Status": 312
+      },
+      "duplicates": 51
+    },
+    "PLASMABLOOD": {
+      "rows": 26,
+      "cols": 9,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time ",
+        "Availability Status",
+        "Comments"
+      ],
+      "missing": {
+        "Facility provided": 1,
+        "District": 26,
+        "Name of the Organisation/Contact Person ": 1,
+        "Location": 1,
+        "Contact number ": 1,
+        "Verification Status": 1,
+        "Verification time ": 4,
+        "Availability Status": 18,
+        "Comments": 21
+      },
+      "duplicates": 0
+    },
+    "COVID TESTING": {
+      "rows": 68,
+      "cols": 20,
+      "columns": [
+        "Facility Provided ",
+        "District",
+        "Name of Organisation/Contact Person",
+        "Location",
+        "Contact Number",
+        "Verification Status",
+        "Verification Time",
+        "Availability Status",
+        "Comments",
+        "Status",
+        "Status.1",
+        "Status.2",
+        "Status.3",
+        "Status.4",
+        "Status.5",
+        "Status.6",
+        "Status.7",
+        "Status.8",
+        "Unnamed: 18",
+        "Unnamed: 19"
+      ],
+      "missing": {
+        "Facility Provided ": 3,
+        "District": 7,
+        "Name of Organisation/Contact Person": 4,
+        "Location": 24,
+        "Contact Number": 4,
+        "Verification Status": 6,
+        "Verification Time": 10,
+        "Availability Status": 39,
+        "Comments": 38,
+        "Status": 67,
+        "Status.1": 67,
+        "Status.2": 67,
+        "Status.3": 67,
+        "Status.4": 67,
+        "Status.5": 67,
+        "Status.6": 67,
+        "Status.7": 67,
+        "Status.8": 67,
+        "Unnamed: 18": 68,
+        "Unnamed: 19": 66
+      },
+      "duplicates": 2
+    },
+    "MEDICINES": {
+      "rows": 107,
+      "cols": 9,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time ",
+        "Availability Status",
+        "Comments"
+      ],
+      "missing": {
+        "Facility provided": 4,
+        "District": 46,
+        "Name of the Organisation/Contact Person ": 5,
+        "Location": 52,
+        "Contact number ": 4,
+        "Verification Status": 5,
+        "Verification time ": 24,
+        "Availability Status": 65,
+        "Comments": 67
+      },
+      "duplicates": 2
+    },
+    "AMBULANCE": {
+      "rows": 25,
+      "cols": 9,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time ",
+        "Availability Status",
+        "Comments"
+      ],
+      "missing": {
+        "Facility provided": 0,
+        "District": 3,
+        "Name of the Organisation/Contact Person ": 0,
+        "Location": 7,
+        "Contact number ": 0,
+        "Verification Status": 1,
+        "Verification time ": 5,
+        "Availability Status": 11,
+        "Comments": 24
+      },
+      "duplicates": 0
+    },
+    "DOCTORS HELPLINES": {
+      "rows": 51,
+      "cols": 17,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time ",
+        "Availability Status",
+        "Comments",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 16"
+      ],
+      "missing": {
+        "Facility provided": 0,
+        "District": 50,
+        "Name of the Organisation/Contact Person ": 0,
+        "Location": 31,
+        "Contact number ": 2,
+        "Verification Status": 37,
+        "Verification time ": 39,
+        "Availability Status": 31,
+        "Comments": 35,
+        "Unnamed: 9": 51,
+        "Unnamed: 10": 51,
+        "Unnamed: 11": 48,
+        "Unnamed: 12": 48,
+        "Unnamed: 13": 49,
+        "Unnamed: 14": 50,
+        "Unnamed: 15": 51,
+        "Unnamed: 16": 50
+      },
+      "duplicates": 0
+    },
+    "KOLKATA VOLUNTEERS ": {
+      "rows": 84,
+      "cols": 9,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time ",
+        "Availability Status",
+        "Comments"
+      ],
+      "missing": {
+        "Facility provided": 0,
+        "District": 84,
+        "Name of the Organisation/Contact Person ": 0,
+        "Location": 2,
+        "Contact number ": 0,
+        "Verification Status": 0,
+        "Verification time ": 84,
+        "Availability Status": 84,
+        "Comments": 0
+      },
+      "duplicates": 0
+    },
+    "QUARANTINE & HOME CARE": {
+      "rows": 0,
+      "cols": 9,
+      "columns": [
+        "Facility provided",
+        "District",
+        "Name of the Organisation/Contact Person ",
+        "Location",
+        "Contact number ",
+        "Verification Status",
+        "Verification time ",
+        "Availability Status",
+        "Comments"
+      ],
+      "missing": {
+        "Facility provided": 0,
+        "District": 0,
+        "Name of the Organisation/Contact Person ": 0,
+        "Location": 0,
+        "Contact number ": 0,
+        "Verification Status": 0,
+        "Verification time ": 0,
+        "Availability Status": 0,
+        "Comments": 0
+      },
+      "duplicates": 0
+    },
+    "NADIA AND 24 PARGANAS": {
+      "rows": 61,
+      "cols": 6,
+      "columns": [
+        "Serial number",
+        "Dsitrict/Area",
+        "Resource name",
+        "Resource type",
+        "Contact details",
+        "Verified or not"
+      ],
+      "missing": {
+        "Serial number": 12,
+        "Dsitrict/Area": 21,
+        "Resource name": 16,
+        "Resource type": 61,
+        "Contact details": 19,
+        "Verified or not": 61
+      },
+      "duplicates": 12
+    },
+    "MALDA DIVISION": {
+      "rows": 39,
+      "cols": 8,
+      "columns": [
+        "Unnamed: 0",
+        "Serial Number",
+        "Area",
+        "Resource name",
+        "Contact type",
+        "Contact number",
+        "Verified or not",
+        "Comments"
+      ],
+      "missing": {
+        "Unnamed: 0": 35,
+        "Serial Number": 38,
+        "Area": 24,
+        "Resource name": 34,
+        "Contact type": 25,
+        "Contact number": 25,
+        "Verified or not": 39,
+        "Comments": 39
+      },
+      "duplicates": 22
+    },
+    "BURDWAN DIVISION": {
+      "rows": 36,
+      "cols": 12,
+      "columns": [
+        "Serial Number",
+        "District Name",
+        "Resource name",
+        "Area",
+        "Contact type",
+        "Contact number",
+        "Verified or not",
+        "Comments",
+        "Unnamed: 8",
+        "Verification Time",
+        "Unnamed: 10",
+        "Unnamed: 11"
+      ],
+      "missing": {
+        "Serial Number": 8,
+        "District Name": 10,
+        "Resource name": 10,
+        "Area": 24,
+        "Contact type": 27,
+        "Contact number": 10,
+        "Verified or not": 13,
+        "Comments": 11,
+        "Unnamed: 8": 35,
+        "Verification Time": 13,
+        "Unnamed: 10": 35,
+        "Unnamed: 11": 34
+      },
+      "duplicates": 5
+    },
+    "MEDINIPUR DIVISION": {
+      "rows": 37,
+      "cols": 9,
+      "columns": [
+        "Unnamed: 0",
+        "Serial Number",
+        "Area",
+        "Resource name",
+        "Contact type",
+        "Contact number",
+        "Verified or not",
+        "Comments",
+        "Unnamed: 8"
+      ],
+      "missing": {
+        "Unnamed: 0": 32,
+        "Serial Number": 20,
+        "Area": 20,
+        "Resource name": 20,
+        "Contact type": 24,
+        "Contact number": 20,
+        "Verified or not": 22,
+        "Comments": 22,
+        "Unnamed: 8": 22
+      },
+      "duplicates": 14
+    },
+    "App Metadata": {
+      "rows": 1,
+      "cols": 2,
+      "columns": [
+        "Last Automatic Refresh Initiated",
+        "Last Manual Refresh Requested"
+      ],
+      "missing": {
+        "Last Automatic Refresh Initiated": 0,
+        "Last Manual Refresh Requested": 1
+      },
+      "duplicates": 0
+    }
+  }
+}
