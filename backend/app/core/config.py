@@ -18,18 +18,29 @@ for env_file in env_candidates:
 
 # Vercel serverless ephemeral storage compatibility
 default_db_url = "sqlite:///./covid_healthcare.db"
-if os.getenv("VERCEL"):
+if os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME"):
     import shutil
     db_name = "covid_healthcare.db"
     tmp_db_path = f"/tmp/{db_name}"
-    src_db_path = os.path.join(root_dir, db_name)
-    if os.path.exists(src_db_path) and not os.path.exists(tmp_db_path):
+    candidates = [
+        os.path.join(root_dir, db_name),
+        os.path.join(os.getcwd(), db_name),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", db_name),
+        f"/var/task/{db_name}",
+        f"/var/task/backend/{db_name}",
+    ]
+    for src in candidates:
         try:
-            shutil.copy2(src_db_path, tmp_db_path)
+            norm_src = os.path.normpath(src)
+            if os.path.exists(norm_src) and not os.path.exists(tmp_db_path):
+                shutil.copy2(norm_src, tmp_db_path)
+                break
         except Exception:
             pass
     if os.path.exists(tmp_db_path):
         default_db_url = f"sqlite:///{tmp_db_path}"
+    else:
+        default_db_url = f"sqlite:////tmp/{db_name}"
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "COVID-19 Trend Prediction – Healthcare Analytics"

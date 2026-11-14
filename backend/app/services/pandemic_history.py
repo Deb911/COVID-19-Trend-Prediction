@@ -4,8 +4,25 @@ import math
 from datetime import datetime, timedelta
 from typing import Dict, Any, List, Optional
 
-HISTORY_FILE = os.path.join("data", "official_india_covid_history.csv")
-ATTACHED_SERIES_FILE = os.path.join("data", "daily_epidemic_time_series.csv")
+def _find_data_file(filename: str) -> str:
+    candidates = [
+        os.path.join("data", filename),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "data", filename),
+        os.path.join(os.getcwd(), "data", filename),
+        os.path.join("/var/task", "data", filename),
+        os.path.join("/var/task", "backend", "data", filename),
+    ]
+    for c in candidates:
+        try:
+            norm_c = os.path.normpath(c)
+            if os.path.exists(norm_c):
+                return norm_c
+        except Exception:
+            pass
+    return os.path.join("data", filename)
+
+HISTORY_FILE = _find_data_file("official_india_covid_history.csv")
+ATTACHED_SERIES_FILE = _find_data_file("daily_epidemic_time_series.csv")
 
 _CACHED_HISTORY = None
 

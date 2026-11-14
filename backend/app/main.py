@@ -10,15 +10,26 @@ from app.models import *
 from app.services.data_importer import seed_initial_data
 from app.api import auth, analytics, predictions, datasets, reports, admin
 
+_DB_INITIALIZED = False
+
+def ensure_db_ready():
+    global _DB_INITIALIZED
+    if not _DB_INITIALIZED:
+        try:
+            Base.metadata.create_all(bind=engine)
+            db = SessionLocal()
+            try:
+                seed_initial_data(db)
+            finally:
+                db.close()
+            _DB_INITIALIZED = True
+        except Exception as e:
+            print(f"[DB INIT WARNING] {e}", flush=True)
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("[BACKEND STARTUP] Creating database tables if not exist...", flush=True)
-    Base.metadata.create_all(bind=engine)
-    db = SessionLocal()
-    try:
-        seed_initial_data(db)
-    finally:
-        db.close()
+    ensure_db_ready()
     print("[BACKEND STARTUP] System ready! REST API active at /api", flush=True)
     yield
     print("[BACKEND SHUTDOWN] Closing database connections...", flush=True)
