@@ -8,7 +8,9 @@ import {
 // suppress unused import warning
 type _User = import('../types').User;
 
-const API_BASE = '/api';
+// In production (Vercel/Render), set VITE_API_URL to your backend URL e.g. https://your-backend.onrender.com
+// In development, leave unset and it falls back to relative /api (proxied by Vite dev server)
+const API_BASE = (import.meta.env.VITE_API_URL as string) || '/api';
 
 function getAuthHeaders(): HeadersInit {
   const token = localStorage.getItem('covid_auth_token');
